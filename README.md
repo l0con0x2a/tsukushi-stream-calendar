@@ -1,12 +1,18 @@
 # tsukushi-stream-calendar
 
 春日部つくしの YouTube 配信予定を Google カレンダーに自動同期する、非公式の Google Apps Script（GAS）です。
+
+**このリポジトリと共有カレンダーは、ファン個人が制作・運営しています。春日部つくしさんご本人および公式の運営とは関係ありません。**
+
 Google アカウントでスクリプトを実行すると、専用カレンダーを作成し、1 時間ごとに配信予定を同期します。
 
 ## カレンダーを追加する
 
-配信予定を見るだけなら、[共有カレンダーを Google カレンダーに追加](https://calendar.google.com/calendar/u/0?cid=MGY2NGJlZDc1OTMwZWViYmRjZWMwNzExZWFjZDUxZTkwOWYxY2M1NjkyNTE0MzBjMWE1M2VmYThhNTcyNWNmZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)してください。
+配信予定を見るだけなら、[非公式の共有カレンダーを Google カレンダーに追加](https://calendar.google.com/calendar/u/0?cid=MGY2NGJlZDc1OTMwZWViYmRjZWMwNzExZWFjZDUxZTkwOWYxY2M1NjkyNTE0MzBjMWE1M2VmYThhNTcyNWNmZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)してください。
 スクリプトの設定や実行は不要です。
+
+自動同期のタイミングによって、変更の反映が遅れることがあります。
+最新の配信予定は [公式 YouTube チャンネル](https://www.youtube.com/channel/UCHccxX2p_9DB_HPnXSb2omw)や [X](https://x.com/kasukaBe_nyoki)で確認してください。
 
 ## 同期する内容
 
@@ -77,6 +83,14 @@ Apps Script が自動作成するデフォルトの Cloud プロジェクトで�
 
 自動同期を止めるには、「トリガー」画面で `main` のトリガーを削除します。
 その後 `main` を手動実行すると、トリガーを再作成して同期を再開します。
+
+## 春日部つくしの公式リンク
+
+- [公式ホームページ](https://tsukushinyoki10.wixsite.com/tsukushiofficial)
+- [YouTube](https://www.youtube.com/channel/UCHccxX2p_9DB_HPnXSb2omw)
+- [X](https://x.com/kasukaBe_nyoki)
+- [FANBOX（支援サイト）](https://kasukabe.fanbox.cc/)
+- [BOOTH（グッズ）](https://kasukabe294.booth.pm/)
 
 ## ライセンス
 
