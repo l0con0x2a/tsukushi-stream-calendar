@@ -1,0 +1,2 @@
+# tsukushi-stream-calendar
+春日部つくしの配信予定をGoogleカレンダーに自動同期する非公式ツール
